@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  list-style-type: none !important;
+}
+a{
+  text-decoration: none !important;
 }
 
 .App-logo {

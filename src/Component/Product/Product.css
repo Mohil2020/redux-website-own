@@ -1,0 +1,97 @@
+/* Product.css */
+
+body {
+    background-color: #f8f9fa; /* Bootstrap light gray background color */
+  }
+  
+  .product-details-container {
+    height: 100vh;
+    background-color: #ffffff; /* White background color */
+  }
+  
+  .thumbnail-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail-image {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for thumbnails */
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+  }
+  
+  .thumbnail-image:hover {
+    transform: scale(0.97);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  }
+  
+  .no-thumbnail-message {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+  }
+  
+  .main-image-col {
+    padding: 0 10px;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .product-details-col {
+    padding: 0 20px;
+  }
+  
+  .brand {
+    font-weight: bold;
+    color: #28a745; /* Bootstrap success color */
+  }
+  
+  .product-title {
+    font-size: 28px;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #28a745; /* Bootstrap success color */
+    margin-top: 10px;
+  }
+  
+  .mrp {
+    font-weight: bold;
+    color: #555; /* Medium gray text color */
+  }
+  
+  .discount {
+    color: #dc3545; /* Bootstrap danger color for discount percentage */
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #007bff; /* Bootstrap primary color for category */
+    margin-top: 10px;
+  }
+  
+  .stock {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff; /* Bootstrap primary color for stock */
+  }
+  
+  .description {
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+    margin-top: 10px;
+  }
+  
